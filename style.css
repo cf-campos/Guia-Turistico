@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  padding: 50px;
+  width: 1280px;
+  margin: auto;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  color: #e1624f;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#busan-img img {
+  border-radius: 28px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  letter-spacing: 0.3px;
+}
+
+.description2 {
+  text-align: justify;
+  margin: 0;
+}
+
+.bompara {
+  color: var(--text-secondary, #333);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.historia{
+    color: #0C51A7;
+
+}
+
+#title-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Haedong {
+  width: 100%;
+  border-radius: 28px;
+}
+
+.title-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 64px 0;
+}
